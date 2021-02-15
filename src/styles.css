@@ -2,14 +2,50 @@ body {
   font-family: sans-serif;
 }
 
+input {
+  border-radius: 2px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  background-color: whitesmoke;
+}
+
+button {
+  border-radius: 2px;
+  border: none;
+  padding: 4px 16px;
+}
+
+button:hover {
+  background-color: #ffee93;
+  color: #e97878;
+  cursor: pointer;
+}
+
 .input-area {
-  background-color: #c1ffff;
+  background-color: #d8d6d6;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 2px;
 }
 
 .incomplete-area {
-  background-color: #c6ffe2;
+  background-color: #f05454e1;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 2px;
 }
 
 .complete-area {
-  background-color: #ffffe0;
+  background-color: #30475eda;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 2px;
 }
