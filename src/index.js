@@ -1,7 +1,4 @@
-//　追加ボタンが押された時の挙動(上記の関数はここから呼ばれている)
-document
-  .getElementById("add-button")
-  .addEventListener("click", () => onClickAdd());
+// import "./styles.css";
 
 // クリックされた時の挙動 関数
 const onClickAdd = () => {
@@ -76,4 +73,7 @@ const deleteFromIncompleteList = (target) => {
   document.getElementById("incomplete-list").removeChild(target);
 };
 
-
+//　追加ボタンが押された時の挙動(上記の関数はここから呼ばれている)
+document
+  .getElementById("add-button")
+  .addEventListener("click", () => onClickAdd());
