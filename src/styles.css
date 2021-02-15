@@ -15,12 +15,17 @@ button {
   border-radius: 2px;
   border: none;
   padding: 4px 16px;
+  margin: 0px 3px;
 }
 
 button:hover {
   background-color: #ffee93;
   color: #e97878;
   cursor: pointer;
+}
+
+li {
+  margin-right: 8px;
 }
 
 .input-area {
@@ -48,4 +53,17 @@ button:hover {
   padding: 8px;
   margin: 8px;
   border-radius: 2px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #e8e8e8;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 6px;
 }
