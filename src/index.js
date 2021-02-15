@@ -1,4 +1,4 @@
-// import "./styles.css";
+import "./styles.css";
 
 // クリックされた時の挙動 関数
 const onClickAdd = () => {
