@@ -9,11 +9,13 @@ input {
   outline: none;
   padding: 6px 16px;
   background-color: whitesmoke;
+  margin-left: 10px;
 }
 
 button {
   border-radius: 2px;
   border: none;
+  outline: none;
   padding: 4px 16px;
   margin: 0px 3px;
 }
